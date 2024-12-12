@@ -1,10 +1,10 @@
 package greetservice
 
 import (
+	greetv1 "buf.build/gen/go/dilzio/bsrdemo/protocolbuffers/go"
 	"connectrpc.com/connect"
 	"context"
 	"fmt"
-	greetv1 "go_example/gen/greet/v1"
 	"log"
 )
 

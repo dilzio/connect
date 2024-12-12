@@ -6,7 +6,6 @@ lint:
 breaking:
   use:
     - FILE
-# modules:
-#  - path: greet/v1
-#  - path: gen 
-#    name: buf.build/dilzio/greetv1
+modules:
+  - path: greet/v1
+    name: buf.build/dilzio/bsrdemo

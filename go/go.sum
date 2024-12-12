@@ -1,5 +1,11 @@
+buf.build/gen/go/dilzio/bsrdemo/connectrpc/go v1.17.0-20241206212130-fc92a3eaa995.1 h1:BX/m/Ky+k+GTgcnb21EReOjQobZUS/Vm65wlBgbnWqI=
+buf.build/gen/go/dilzio/bsrdemo/connectrpc/go v1.17.0-20241206212130-fc92a3eaa995.1/go.mod h1:CgxBSK4bOT8LDxj6NXo6vrBwkEnNz9shg8NJaVe2MRE=
+buf.build/gen/go/dilzio/bsrdemo/connectrpc/go v1.17.0-20241211211228-ece03fbe7c51.1 h1:ZaY6DTk1Ir+ARaPbEnHChSFsDhfFHHH0YOqJhRsr56U=
+buf.build/gen/go/dilzio/bsrdemo/connectrpc/go v1.17.0-20241211211228-ece03fbe7c51.1/go.mod h1:7RH2TjMuD3AYH8qsxgg1yqFpTvLIwL4RJRBW4M8mFIQ=
 buf.build/gen/go/dilzio/bsrdemo/protocolbuffers/go v1.34.2-20241206212130-fc92a3eaa995.2 h1:1uOwmETcJTSiYlXMJKPzypib1wZMcOCl4wcGFsJ87Xs=
 buf.build/gen/go/dilzio/bsrdemo/protocolbuffers/go v1.34.2-20241206212130-fc92a3eaa995.2/go.mod h1:mAKaoHAoFAQC/mIHv8xtIz7qfXBdaqtIORNkeD84NEE=
+buf.build/gen/go/dilzio/bsrdemo/protocolbuffers/go v1.34.2-20241211211228-ece03fbe7c51.2 h1:EUnQN6sD9K/AePbBCLMnHl1fyocKbGG5DJAuMvdvQu0=
+buf.build/gen/go/dilzio/bsrdemo/protocolbuffers/go v1.34.2-20241211211228-ece03fbe7c51.2/go.mod h1:mAKaoHAoFAQC/mIHv8xtIz7qfXBdaqtIORNkeD84NEE=
 connectrpc.com/connect v1.17.0 h1:W0ZqMhtVzn9Zhn2yATuUokDLO5N+gIuBWMOnsQrfmZk=
 connectrpc.com/connect v1.17.0/go.mod h1:0292hj1rnx8oFrStN7cB4jjVBeqs+Yx5yDIC2prWDO8=
 github.com/google/go-cmp v0.5.9 h1:O2Tfq5qg4qc4AmwVlvv0oLiVAGB7enBSJ2x2DqQFi38=
