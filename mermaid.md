@@ -1,4 +1,5 @@
 ```mermaid
+%%{init: {'theme': 'light'}}%%
 C4Dynamic
     title Dynamic diagram for Internet Banking System - API Application
 
