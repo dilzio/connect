@@ -1,3 +1,4 @@
+```mermaid
 C4Dynamic
     title Dynamic diagram for Internet Banking System - API Application
 
@@ -14,4 +15,5 @@ C4Dynamic
     UpdateRelStyle(c1, c2, $textColor="red", $offsetY="-40")
     UpdateRelStyle(c2, c3, $textColor="red", $offsetX="-40", $offsetY="60")
     UpdateRelStyle(c3, c4, $textColor="red", $offsetY="-40", $offsetX="10")
+```
 
