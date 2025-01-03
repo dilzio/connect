@@ -1,20 +1,31 @@
 ```mermaid
-%%{init: {'theme': 'neutral'}}%%
-C4Dynamic
-    title Dynamic diagram for Internet Banking System - API Application
-
-    ContainerDb(c4, "Databases", "Relational Database Schema", "Stores user registration information, hashed authentication credentials, access logs, etc.")
-    Container(c1, "Single-Page Application", "JavaScript and Angular", "Provides all of the Internet banking functionality to customers via their web browser.")
-    Container_Boundary(b, "API Application") {
-      Component(c3, "Security Component", "Spring Bean", "Provides functionality Related to signing in, changing passwords, etc.")
-      Component(c2, "Sign In Controller", "Spring MVC Rest Controller", "Allows users to sign in to the Internet Banking System.")
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#BB2523',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#F8B222',
+      'secondaryColor': '#006100',
+      'tertiaryColor': '#fff'
     }
-    Rel(c1, c2, "Submits credentials to", "JSON/HTTPS")
-    Rel(c2, c3, "Calls isAuthenticated() on")
-    Rel(c3, c4, "select * from users where username = ?", "JDBC")
+  }
+}%%
+        graph TD
+          A[Christmas] -->|Get money| B(Go shopping)
+          B --> C{Let me think}
+          B --> G[/Another/]
+          C ==>|One| D[Laptop]
+          C -->|Two| E[iPhone]
+          C -->|Three| F[fa:fa-car Car]
+          subgraph section
+            C
+            D
+            E
+            F
+            G
+          end
 
-    UpdateRelStyle(c1, c2, $textColor="red", $offsetY="-40")
-    UpdateRelStyle(c2, c3, $textColor="red", $offsetX="-40", $offsetY="60")
-    UpdateRelStyle(c3, c4, $textColor="red", $offsetY="-40", $offsetX="10")
 ```
 
